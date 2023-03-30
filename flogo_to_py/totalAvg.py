@@ -1,0 +1,18 @@
+print("Enter semester: ")
+g = int(input())
+print("Enter subject code 1: ")
+i = int(input())
+print("Enter subject code 2: ")
+j = int(input())
+print("Enter subject code 3: ")
+h = int(input())
+print("Enter marks of: " + str(i))
+f1 = int(input())
+print("Enter marks of: " + str(j))
+f2 = int(input())
+print("Enter marks of: " + str(h))
+f3 = int(input())
+avg = float(f1 + f2 + f3) / 3
+print("Average of all 3 subs: " + str(avg))
+l = f1 + f2 + f3
+print("Total marks: " + str(l) + "/300")
